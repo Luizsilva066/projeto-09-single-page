@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Single Page">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="author" content="Luiz Henrique da Silva Sales">
+    <meta name="robots" content="INDEX, follow">
+    <title>Meu site de Pagina unica</title>
+    <link rel="shortcut icon" href="assets/page.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <a href="#hero" class="logo">Meu Site</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </main>
+    <article>      
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Bem-vindo ao Nosso Espaço Criativo</h1>
+                <p class="hero-subtitle">Onde ideias incríveis ganham vida.</p>
+                <a href="#contact" class="hero-button">Entre em Contato</a>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-tem"><img src="assets/perfil2.jpg" alt="Descrição1"></div>
+                    <div class="gallery-tem"><img src="assets/perfil2.jpg" alt="Descrição2"></div>
+                    <div class="gallery-tem"><img src="assets/perfil2.jpg" alt="Descrição3"></div>
+                    <div class="gallery-tem"><img src="assets/perfil2.jpg" alt="Descrição4"></div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">O Que Dizem Sobre Nós</h2>
+                <div class="testimonials-grid">
+                    <article class="testimonial-grid">
+                        <img src="assets/fotoPerfil.jpg" alt="Foto de Maria" class="testimonial-avatar" >
+                        <blockquote>“Trabalho impecável e criativo. Transformaram minha ideia em realidade!”</blockquote>
+                        <cite>Luiz Henrique</cite>
+                    </article>
+                    <article class="testimonial-grid">
+                        <img src="assets/fotoPerfil.jpg" alt="Foto de Maria" class="testimonial-avatar" >
+                        <blockquote>“Profissionalismo e entrega no prazo. Superou minhas expectativas.”</blockquote>
+                        <cite>Luiz Henrique</cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="form-container">
+                <h2 class="section-title">Fale Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="e-mail" name="user_email">
+                    </div>
+                    <button type="submit" class="submit_button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </article>
+    <main>
+
+        <footer class="main-footer">
+            <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+        </footer>
+</body>
+</html>
